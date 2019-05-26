@@ -47,7 +47,7 @@
                             {{#each burgers}}
                                 {{#if devoured}}
                                     <span> {{this.id}} - {{this.burger_name}} </span> 
-                                    <button type="button" class="btn btn-secondary float-right" id="devourBtn" data-id="{{this.id}}" data-newDevoured="{{devour}}">Devour! <i class="far fa-trash-alt"></i></button>
+                                    <button type="button" class="btn btn-dark float-right" id="devourBtn" data-id="{{this.id}}" data-newDevoured="{{devour}}">Devour! <i class="far fa-trash-alt"></i></button>
                                 {{/unless}}
                             {{/each}}
                         </ul>
