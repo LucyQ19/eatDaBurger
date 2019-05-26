@@ -1,6 +1,6 @@
 $(function(){
 
-    $("#burgerForm").on("submit", function(events) {
+    $(".form-inline").on("submit", function(events) {
         event.preventDefault();
 
         var newBurger = {
@@ -36,7 +36,7 @@ $(function(){
         });
     });
 
-    $("#devourBtn").on("click", function(event) {
+    $("#trashBtn").on("click", function(event) {
         event.preventDefault();
 
         var id = $(this).data("id");
