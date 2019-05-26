@@ -1,3 +1,23 @@
 .jumbotron {
-    background-color: #ffffff;
+    background-image: url("../images/cheeseBurgers.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+}
+
+#burgerHeader {
+    color: #000000;
+    font-family: 'Limelight', cursive;
+    font-weight: bolder;
+}
+
+#burgerLead {
+    color: #000000;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#burgerForm {
+    position: center;
 }
