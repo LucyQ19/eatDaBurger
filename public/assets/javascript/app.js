@@ -1,6 +1,6 @@
 $(function(){
 
-    $(".form-inline").on("submit", function(events) {
+    $("#burgerForm").on("submit", function(event) {
         event.preventDefault();
 
         var newBurger = {
