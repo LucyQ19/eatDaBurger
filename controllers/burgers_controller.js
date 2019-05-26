@@ -1,4 +1,4 @@
-var express = require("exprss");
+var express = require("express");
 
 var burger = require("../models/burger.js");
 
@@ -9,7 +9,7 @@ router.get("/", function (req, res) {
         var hbsObject = {
             burgers: data
         };
-            console.log(hbsObjects);
+            console.log(hbsObject);
             res.render("index", hbsObject);
     });
 });
@@ -43,4 +43,6 @@ router.delete("api/burgers/:id", function(req, res) {
             return res.status(404)
         }
     })
-})
+});
+
+module.exports = router;
