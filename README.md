@@ -24,4 +24,4 @@ To use Eat-Da-Burger web application from your local environment,
 
 ### Thank you for visitin my github! 
 
-My Heroku-deployed version is here: https://fast-ridge-27781.herokuapp.com/
+Enjoy using my Heroku-deployed version here: https://fast-ridge-27781.herokuapp.com/
