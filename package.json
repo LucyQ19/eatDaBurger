@@ -1,7 +1,7 @@
 {
   "name": "eatdaburger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Eat-Da-Burger! is a burger app that lets users input the name of burgers they'd like to eat",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.19.0",

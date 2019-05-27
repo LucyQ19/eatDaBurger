@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){
 
     $("#burgerForm").on("submit", function(event) {
         event.preventDefault();

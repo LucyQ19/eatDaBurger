@@ -5,7 +5,8 @@ function printQuestionMarks(num) {
 
     for (var i = 0; i < num; i++) {
         arr.push("?");
-    }   return arr.toString();
+    }   
+        return arr.toString();
 };
 
 function objToSql(ob) {
@@ -19,21 +20,23 @@ function objToSql(ob) {
             }   arr.push(key + "=" + value);
         }  
     }   
-        return arr.toString();
+                return arr.toString();
 };
 
 var orm = {
-    selectAll: function(table, callback) {
-        var queryString = "SELECT * FROM " + table + ";";
+    selectAll: function(tableInput, callback) {
+        var queryString = "SELECT * FROM " + tableInput + ";";
+
         connection.query(queryString, function(err, result) {
             if (err) {
                 throw err;
-            }   callback(result);
+            }   
+                callback(result);
         });
     },
 
-    insertOne: function(table, cols, vals, callback) {
-        var queryString = "INSERT INTO " + table;
+    insertOne: function(tableInput, cols, vals, callback) {
+        var queryString = "INSERT INTO " + tableInput;
 
         queryString += " (";
         queryString += cols.toString();
@@ -47,12 +50,13 @@ var orm = {
         connection.query(queryString, vals, function(err, result) {
             if (err) {
                 throw err;
-            }   callback(result);
+            }   
+                callback(result);
         });
     },
     
-    updateOne: function(table, objColVals, condition, callback) {
-        var queryString = "UPDATE " + table;
+    updateOne: function(tableInput, objColVals, condition, callback) {
+        var queryString = "UPDATE " + tableInput;
         queryString += " SET ";
         queryString += objToSql(objColVals);
         queryString += " WHERE ";
@@ -63,12 +67,13 @@ var orm = {
         connection.query(queryString, function(err, result) {
             if (err) {
                 throw err;
-            }   callback(result);
+            }   
+                callback(result);
         });
     },
 
-    deleteOne: function (table, condition, callback) {
-        var queryString = "DELETE FROM " + table;
+    deleteOne: function (tableInput, condition, callback) {
+        var queryString = "DELETE FROM " + tableInput;
         queryString += " WHERE ";
         queryString += condition;
 
@@ -77,9 +82,10 @@ var orm = {
         connection.query(queryString, function(err, result) {
             if (err){
                 throw err
-            }   callback(result);
+            }   
+                callback(result);
         });
-    },
+    }
 };
 
 module.exports = orm;
