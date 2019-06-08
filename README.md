@@ -7,10 +7,10 @@ eatDaBurger is a burger app that lets users to create burgers they'd like to eat
 ### Packages and Technologies Used for this App:
 
 * Bootstrap,
-* Node,
+* Node.js,
 * MySql,
-* Express, 
-* Handlebars,
+* Express.js, 
+* Express.Handlebars,
 * Body-Parser,
 * and Heroku
 
