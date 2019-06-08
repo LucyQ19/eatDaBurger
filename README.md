@@ -19,7 +19,7 @@ eatDaBurger is a burger app that lets users to create burgers they'd like to eat
 To use eatDaBurger web application from your local environment,
 
 1. Clone my repo using the command line.
-2. Change directory to the cloned repo.
+2. Change the directory to the cloned repo.
 3. Install all required NPM packages.
 4. Start the application server using the command line.
 
