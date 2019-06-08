@@ -1,8 +1,8 @@
 # eatDaBurger!
 
-### About the App:
+### About this App:
 
-Eat-Da-Burger is a burger app that lets users to create burgers they'd like to eat.  Whenever a user submits the name of the burger, the app displays the burger on the New Burger side of the page waiting to be devoured.  Each of the burgers created have an Eat-It button beside it.  When the user clicks on it, the burger moves to the Burger Devoured side.  Each of the burgers on the Burger Devoured side have a Delete-It button beside it.  When the user clicks on it, the burger is deleted.
+eatDaBurger is a burger app that lets users to create burgers they'd like to eat.  Whenever a user submits the name of the burger, the app displays the burger on the New Burger side of the page waiting to be devoured.  Each of the burgers created have an Eat-It button beside it.  When the user clicks on it, the burger moves to the Burger Devoured side.  Each of the burgers on the Burger Devoured side have a Delete-It button beside it.  When the user clicks on it, the burger is deleted.
 
 ### Packages and Technologies Used for this App:
 
@@ -16,7 +16,7 @@ Eat-Da-Burger is a burger app that lets users to create burgers they'd like to e
 
 ### Local Environment Setup of this App:
 
-To use Eat-Da-Burger web application from your local environment,
+To use eatDaBurger web application from your local environment,
 
 1. Clone my repo using the command line.
 2. Change directory to the cloned repo.
