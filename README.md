@@ -1,4 +1,4 @@
-# Eat-Da-Burger!
+# eatDaBurger!
 
 ### About the App:
 
