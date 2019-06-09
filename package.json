@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LucyQ19/burger.git"
+    "url": "git+https://github.com/LucyQ19/eatDaBurger.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LucyQ19/burger/issues"
+    "url": "https://github.com/LucyQ19/eatDaBurger/issues"
   },
-  "homepage": "https://github.com/LucyQ19/burger#readme"
+  "homepage": "https://github.com/LucyQ19/eatDaBurger#readme"
 }
