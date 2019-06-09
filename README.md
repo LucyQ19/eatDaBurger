@@ -14,8 +14,8 @@ eatDaBurger is a burger app that lets users to create burgers they'd like to eat
 * Express.js, 
 * Express.Handlebars,
 * MySql,
-* Body-Parser,
-* and Heroku.
+* Body-Parser, and
+* Heroku.
 
 ### Setup the Local Environment:
 
