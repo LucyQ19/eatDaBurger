@@ -18,7 +18,7 @@ $(function(){
         });
     });
 
-    $("#eatBurger").on("click", function(event){
+    $(".eatBurger").on("click", function(event){
         event.preventDefault();
 
         var id = $(this).data("id");
@@ -36,7 +36,7 @@ $(function(){
         });
     });
 
-    $("#trashBurger").on("click", function(event) {
+    $(".trashBurger").on("click", function(event) {
         event.preventDefault();
 
         var id = $(this).data("id");
