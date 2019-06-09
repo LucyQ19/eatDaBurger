@@ -4,6 +4,8 @@
 
 eatDaBurger is a burger app that lets users to create burgers they'd like to eat.  Whenever a user submits the name of the burger, the app displays the burger on the New Burger side of the page waiting to be devoured.  Each of the burgers created have an Eat-It button beside it.  When the user clicks on it, the burger moves to the Burger Devoured side.  Each of the burgers on the Burger Devoured side have a Delete-It button beside it.  When the user clicks on it, the burger is deleted.
 
+![Image of eatDaBurger](./images/eatDaBurger.png)
+
 ### Packages and Technologies Used for this App:
 
 * Bootstrap,
