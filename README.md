@@ -17,14 +17,14 @@ eatDaBurger is a burger app that lets users to create burgers they'd like to eat
 * Body-Parser,
 * and Heroku.
 
-### Local Environment Setup of this App:
+### Setup the Local Environment:
 
 To use eatDaBurger web application from your local environment,
 
 1. Clone my repo using the command line.
 2. Change the directory to the cloned repo.
-3. Install all required NPM packages.
-4. Start the application server on the command linen by typing node server.js.
+3. Install all required NPM packages by typing npm install.
+4. Start the application server on the command line by typing node server.js.
 5. Access it locally on your browser at the URL: localhost:3000
 
 ### Thank you for visiting my github! 
