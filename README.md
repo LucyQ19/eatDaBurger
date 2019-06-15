@@ -27,7 +27,7 @@ To use eatDaBurger web application from your local environment,
 4. Start the application server on the command line by typing node server.js.
 5. Access it locally on your browser at the URL: localhost:3000
 
-### Thank you for visiting my github! 
+### Thank you for visiting my GitHub! 
 
 Enjoy using my Heroku-deployed version here: https://fast-ridge-27781.herokuapp.com/
 
